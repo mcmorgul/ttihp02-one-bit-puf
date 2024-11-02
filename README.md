@@ -1,8 +1,11 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/test/badge.svg) ![](../../workflows/fpga/badge.svg)
 
-# Tiny Tapeout Verilog Project Template
+# Tiny Tapeout Verilog Project for One Bit PUF
 
 - [Read the documentation for project](docs/info.md)
+
+- ![image](https://github.com/user-attachments/assets/f57066bf-c449-4636-a723-1322f0b4a533)
+
 
 ## What is Tiny Tapeout?
 
