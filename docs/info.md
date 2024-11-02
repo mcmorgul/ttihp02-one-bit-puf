@@ -13,7 +13,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How to test
 
-Explain how to use your project
+The output is 0 in the reset condition.
 
 ## External hardware
 
