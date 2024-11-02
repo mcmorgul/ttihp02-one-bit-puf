@@ -9,7 +9,7 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+![image](https://github.com/user-attachments/assets/9d6a2bda-9b6e-4557-9e3f-47c720b87022)
 
 ## How to test
 
