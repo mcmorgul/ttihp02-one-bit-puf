@@ -1,5 +1,5 @@
 module one_bit_puf(
-     input wire START,    // PUF Start signal
+     input wire START,    // PUF Start signal // enable
      input wire reset,    // Reset signal
      output wire OUT
  );
@@ -7,8 +7,8 @@ module one_bit_puf(
  (* KEEP = "TRUE" *) wire Q1;
  wire P0;         // Delays through inverters
  wire P1;         // Delays through inverters
- wire enable1, enable0;
- wire input1, input0;
+ // wire enable1, enable0;
+ // wire input1, input0;
 
  Dlatch dl0(START, reset, P1, Q0);
  Dlatch dl1(START, reset, P0, Q1);
