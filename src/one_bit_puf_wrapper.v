@@ -17,7 +17,7 @@ module tt_um_one_bit_puf_wrapper (
 );
 
 	// Signals mapped from the wrapper input
-    wire start_signal = ena;           // Map START signal to ena
+	wire start_signal = ui_in[7];           // Map START signal to ena
     wire reset_signal = ~rst_n;        // Map reset signal (active-low)
     
     // Instantiate one_bit_puf or two_bit_puf
@@ -38,6 +38,6 @@ module tt_um_one_bit_puf_wrapper (
 
 
   // List all unused inputs to prevent warnings such as:
-  wire _unused = &{ui_in, uio_in, clk, 1'b0};
+	wire _unused = &{ui_in[6:0], ena, uio_in, clk, 1'b0};
 
 endmodule
