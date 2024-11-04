@@ -30,7 +30,7 @@ pinout:
   ui[4]: ""
   ui[5]: ""
   ui[6]: ""
-  ui[7]: ""
+  ui[7]: "start_signal"
 
   # Outputs
   uo[0]: "one_bit_puf output"
